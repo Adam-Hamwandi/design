@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    background-color: bisque;
+    font-size: 30px;
+    margin: 40px;
+    align-items:stretch;
+}
+
+
+
+.el--1{
+    background-color: violet;
+}
+.el--2{
+    background-color: blue;
+}
+.el--3{
+    background-color: blueviolet;
+    height: 90px;
+}
+
+.el--4{
+    background-color: aqua;
+}
+
+.el--5{
+    background-color: cadetblue;
+}
+
+.el--6{
+    background-color: yellow;
+}
+.el--7{
+    background-color: turquoise;
+}
+
+.el--8{
+    background-color: teal;
+}
