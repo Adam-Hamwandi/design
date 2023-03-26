@@ -1,40 +1,134 @@
+/*
+SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
 
-.container{
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* ------------------------ */
+  /* GENERAL STYLES */
+  /* ------------------------ */
+  body {
+    font-family: sans-serif;
+  }
+  
+  .container {
+    width: 970px;
+    margin: 0 auto;
+  }
+  
+  header,
+  section {
+    margin-bottom: 48px;
+  }
+  
+  h2 {
+    margin-bottom: 48px;
+  }
+  
+  .grid-3-cols {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 100px;
+  }
+  
+  /* ------------------------ */
+  /* COMPONENT STYLES */
+  /* ------------------------ */
+  
+  /* HEADER */
+  header {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 80px;
+    margin-top: 48px;
+  }
+  
+  .header-text-box {
+    align-self: center;
+  }
+  
+  h1 {
+    margin-bottom: 24px;
+  }
+  
+  .header-text {
+    margin-bottom: 24px;
+  }
+  
+  img {
+    width: 100%;
+  }
+  
+  /* FEATURES */
+  .features-icon {
+  }
+  
+  .features-title {
+    margin-bottom: 16px;
+  }
+  
+  .features-text {
+  }
+  
+  /* TESTIMONIAL */
+  .testimonial-section {
+  }
+  
+  .testimonial-box {
+    grid-column: 2 / -1;
+    align-self:center;
+  }
+  
+  .testimonial-box h2 {
+    margin-bottom: 24px;
+  }
+  
+  .testimonial-text {
+    font-style: italic;
+    margin-bottom: 24px;
+  }
+  
+  /* CHAIRS */
+  .chair-box {
+    padding: 24px;
+  }
+  
+  h3 {
+    margin-bottom: 24px;
+  }
+  
+  .chair-details {
+    list-style: none;
+    margin-bottom: 24px;
+  }
+  
+  .chair-details li {
     display: flex;
-    background-color: bisque;
-    font-size: 30px;
-    margin: 40px;
-    align-items:center;
-    justify-content: center;
-}
-
-.el--1{
-    background-color: violet;
-}
-.el--2{
-    background-color: blue;
-}
-.el--3{
-    background-color: blueviolet;
-    height: 90px;
-}
-
-.el--4{
-    background-color: aqua;
-}
-
-.el--5{
-    background-color: cadetblue;
-}
-
-.el--6{
-    background-color: yellow;
-}
-.el--7{
-    background-color: turquoise;
-}
-
-.el--8{
-    background-color: teal;
-}
-
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .chair-details li:last-child {
+    margin-bottom: 0;
+  }
+  
+  .chair-icon {
+  }
+  
+  .chair-price {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  footer {
+    margin-bottom: 48px;
+  }
