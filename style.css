@@ -94,12 +94,12 @@ h2 {
 
 /* HEADER */
 header {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  column-gap: 80px;
-  margin-top: 128px;
-  padding-left: 60px;
-  padding-right: 0;
+  margin-top: 64px;
+  padding: 100px;
+  background: url(hero.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 header img {
@@ -111,11 +111,18 @@ header img {
 }
 
 .header-text-box {
-  align-self: center;
+  position: relative;
+  width: 600px;
+  color: #c3fae8;
+  background-color: #343a40;
+  padding: 50px 90px;
+  opacity: 0.9;
+  margin: 0 auto;
+  border-radius: 10px;
 }
 
 .header-text-box h1 {
-  width: 400px;
+  width: 500px;
 }
 
 h1 {
@@ -129,7 +136,8 @@ h1 {
   margin-bottom: 24px;
   font-size: 18px;
   line-height: 1.7;
-  width: 400px;
+  width: 440px;
+  /* width: 400px; */
 }
 
 img {
